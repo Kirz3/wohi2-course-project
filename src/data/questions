@@ -1,0 +1,35 @@
+//questions
+const questions = [
+  {
+    id: 1,
+    question: "question 1",
+    answer: "content",
+    keywords: ["question", "problem",],
+  },
+  {
+    id: 2,
+    question: "question 2",
+    answer: "answer",
+    keywords: ["question", "problem",],
+  },
+  {
+    id: 3,
+    question: "question 3",
+    answer: "answer",
+    keywords: ["question", "problem",],
+  },
+  {
+    id: 4,
+    question: "question 4",
+    answer: "answer",
+    keywords: ["question", "problem",],
+  },
+  {
+    id: 5,
+    question: "question 5",
+    answer: "answer",
+    keywords: ["question", "problem",],
+  },
+];
+
+module.exports = questions;
