@@ -1,0 +1,22 @@
+meta {
+  name: Create Question
+  type: http
+}
+
+post {
+  url: http://localhost:3000/api/questions
+}
+
+headers {
+  Authorization: Bearer YOUR_TOKEN_HERE
+}
+
+body {
+  json {
+    {
+      "question": "What is the tallest building in the world?",
+      "answer": "Burj Khalifa",
+      "keywords": ["building, dubai"]
+    }
+  }
+}
